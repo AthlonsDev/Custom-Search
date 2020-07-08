@@ -90,10 +90,10 @@ class Model: NSObject {
         func getCustomSearchData(search: String, completionHandler: @escaping CompletionHandler) {
             
 //            API of Google Custom Search which can be Customized
-            let apiKey = "AIzaSyDKVx50u_FxYRGS0xH4ujM_fEGq9cG12mw"
+            let apiKey = "Paste Your API Key"
                         let bundleId = "Foodys.Discover-Update"
-                        let searchEngineId = "008687677900679795553:sfq88skz0s5"
-                        let serverAddress = String(format: "https://www.googleapis.com/customsearch/v1?q=%@&cx=%@&key=%@",search ,searchEngineId, apiKey)
+                        let searchEngineId = "Paste Your Search ID"
+                        let serverAddress = String(format: "Paste Your GoogleApis link",search ,searchEngineId, apiKey)
 
 
                         guard serverAddress.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) != nil else {return}
