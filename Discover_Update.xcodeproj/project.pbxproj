@@ -10,7 +10,6 @@
 		39F136D189BB69EE8E31FE89 /* Pods_Discover_Update.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58659639FFCEB6401FF62200 /* Pods_Discover_Update.framework */; };
 		4F653BCA88D8F133018A723A /* Pods_Discover_Update_Discover_UpdateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D29D0599140049AF702EADB /* Pods_Discover_Update_Discover_UpdateUITests.framework */; };
 		962E864C245044140082EB50 /* DefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E864B245044130082EB50 /* DefaultCell.swift */; };
-		964A8AAE24B532DA0043731E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A8AAD24B532DA0043731E /* View.swift */; };
 		96C3EFB22443A3A600930DFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C3EFB12443A3A600930DFA /* AppDelegate.swift */; };
 		96C3EFB62443A3A600930DFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C3EFB52443A3A600930DFA /* ViewController.swift */; };
 		96C3EFB92443A3A600930DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C3EFB72443A3A600930DFA /* Main.storyboard */; };
@@ -18,10 +17,11 @@
 		96C3EFBE2443A3A900930DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C3EFBC2443A3A900930DFA /* LaunchScreen.storyboard */; };
 		96C3EFC92443A3A900930DFA /* Discover_UpdateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C3EFC82443A3A900930DFA /* Discover_UpdateTests.swift */; };
 		96C3EFD42443A3A900930DFA /* Discover_UpdateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C3EFD32443A3A900930DFA /* Discover_UpdateUITests.swift */; };
+		96C98B3C253DD2B40040AC99 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C98B3B253DD2B40040AC99 /* Service.swift */; };
+		96C98B41253DD9090040AC99 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C98B40253DD9090040AC99 /* ViewModel.swift */; };
 		96F40C7624B5C78F004D354A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F40C7524B5C78F004D354A /* Model.swift */; };
 		96F49C4A24578DFE00A43115 /* smallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F49C4924578DFE00A43115 /* smallCell.swift */; };
 		96FFAC3924607F9900EEA29F /* dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 96FFAC3824607F9900EEA29F /* dictionary.json */; };
-		96FFAC3B24609D1B00EEA29F /* words_alpha.txt in Resources */ = {isa = PBXBuildFile; fileRef = 96FFAC3A24609D1B00EEA29F /* words_alpha.txt */; };
 		9C8F4D5123933252188F1450 /* Pods_Discover_UpdateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F143A8F75555EEFFAFFC30C5 /* Pods_Discover_UpdateTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +50,6 @@
 		67120F31F84A51721DEA48B0 /* Pods-Discover_Update-Discover_UpdateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Discover_Update-Discover_UpdateUITests.release.xcconfig"; path = "Target Support Files/Pods-Discover_Update-Discover_UpdateUITests/Pods-Discover_Update-Discover_UpdateUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7D29D0599140049AF702EADB /* Pods_Discover_Update_Discover_UpdateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Discover_Update_Discover_UpdateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		962E864B245044130082EB50 /* DefaultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCell.swift; sourceTree = "<group>"; };
-		964A8AAD24B532DA0043731E /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		96C3EFAE2443A3A600930DFA /* Discover_Update.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Discover_Update.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C3EFB12443A3A600930DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96C3EFB52443A3A600930DFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,10 +63,11 @@
 		96C3EFCF2443A3A900930DFA /* Discover_UpdateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Discover_UpdateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C3EFD32443A3A900930DFA /* Discover_UpdateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover_UpdateUITests.swift; sourceTree = "<group>"; };
 		96C3EFD52443A3A900930DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C98B3B253DD2B40040AC99 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		96C98B40253DD9090040AC99 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		96F40C7524B5C78F004D354A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		96F49C4924578DFE00A43115 /* smallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smallCell.swift; sourceTree = "<group>"; };
 		96FFAC3824607F9900EEA29F /* dictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dictionary.json; sourceTree = "<group>"; };
-		96FFAC3A24609D1B00EEA29F /* words_alpha.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words_alpha.txt; sourceTree = "<group>"; };
 		A69F7F1BC6C060C5AD638F7F /* Pods-Discover_UpdateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Discover_UpdateTests.debug.xcconfig"; path = "Target Support Files/Pods-Discover_UpdateTests/Pods-Discover_UpdateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B20E1A8182A65EB9FEDC9899 /* Pods-Discover_UpdateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Discover_UpdateTests.release.xcconfig"; path = "Target Support Files/Pods-Discover_UpdateTests/Pods-Discover_UpdateTests.release.xcconfig"; sourceTree = "<group>"; };
 		F143A8F75555EEFFAFFC30C5 /* Pods_Discover_UpdateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Discover_UpdateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,13 +139,12 @@
 		96C3EFB02443A3A600930DFA /* Discover_Update */ = {
 			isa = PBXGroup;
 			children = (
+				96C98B3F253DD8EE0040AC99 /* ViewModel */,
+				96C98B37253DD2340040AC99 /* Model */,
+				96C98B38253DD2460040AC99 /* View */,
+				96C98B39253DD25C0040AC99 /* Controller */,
+				96C98B3A253DD2650040AC99 /* Service */,
 				96C3EFB12443A3A600930DFA /* AppDelegate.swift */,
-				962E864B245044130082EB50 /* DefaultCell.swift */,
-				96F40C7524B5C78F004D354A /* Model.swift */,
-				96F49C4924578DFE00A43115 /* smallCell.swift */,
-				96C3EFB52443A3A600930DFA /* ViewController.swift */,
-				964A8AAD24B532DA0043731E /* View.swift */,
-				96FFAC3A24609D1B00EEA29F /* words_alpha.txt */,
 				96C3EFB72443A3A600930DFA /* Main.storyboard */,
 				96C3EFBA2443A3A900930DFA /* Assets.xcassets */,
 				96C3EFBC2443A3A900930DFA /* LaunchScreen.storyboard */,
@@ -171,6 +170,47 @@
 				96C3EFD52443A3A900930DFA /* Info.plist */,
 			);
 			path = Discover_UpdateUITests;
+			sourceTree = "<group>";
+		};
+		96C98B37253DD2340040AC99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96F40C7524B5C78F004D354A /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96C98B38253DD2460040AC99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				962E864B245044130082EB50 /* DefaultCell.swift */,
+				96F49C4924578DFE00A43115 /* smallCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96C98B39253DD25C0040AC99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96C3EFB52443A3A600930DFA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96C98B3A253DD2650040AC99 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				96C98B3B253DD2B40040AC99 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		96C98B3F253DD8EE0040AC99 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				96C98B40253DD9090040AC99 /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		FD6143D23CC6B34271C70522 /* Frameworks */ = {
@@ -292,7 +332,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96FFAC3B24609D1B00EEA29F /* words_alpha.txt in Resources */,
 				96C3EFBE2443A3A900930DFA /* LaunchScreen.storyboard in Resources */,
 				96FFAC3924607F9900EEA29F /* dictionary.json in Resources */,
 				96C3EFBB2443A3A900930DFA /* Assets.xcassets in Resources */,
@@ -425,11 +464,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				96C3EFB62443A3A600930DFA /* ViewController.swift in Sources */,
+				96C98B3C253DD2B40040AC99 /* Service.swift in Sources */,
 				962E864C245044140082EB50 /* DefaultCell.swift in Sources */,
 				96C3EFB22443A3A600930DFA /* AppDelegate.swift in Sources */,
 				96F49C4A24578DFE00A43115 /* smallCell.swift in Sources */,
-				964A8AAE24B532DA0043731E /* View.swift in Sources */,
 				96F40C7624B5C78F004D354A /* Model.swift in Sources */,
+				96C98B41253DD9090040AC99 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
